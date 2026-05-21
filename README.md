@@ -26,7 +26,7 @@ pola stałe,
 operator= nie zostanie wygenerowany automatycznie
 
 # Wnioski po napisaniu programu:
-### 1. Konstruktor standardowy poprawnie rezerwuje pamięć dla tablicy za pomocą 'tab = new int[size]'.
-### 2. Konstruktor kopiujący wykonuje kopię, dzięki czemu zmiana danych w obiekcie oryginalnym nie zmienia nic w kopii.
-### 3. Operator = wykonuje się tylko gdy obiekt już istnieje (a nie przy samej inicjalizacji)
-### 4. Operator = musi sprawdzać czy obiekt do skopiowania nie jset obiektem do nadpisania. (inaczej usuną się dane przed ich skopiowaniem)
+#### 1. Konstruktor standardowy poprawnie rezerwuje pamięć dla tablicy za pomocą 'tab = new int[size]'.
+#### 2. Konstruktor kopiujący wykonuje kopię, dzięki czemu zmiana danych w obiekcie oryginalnym nie zmienia nic w kopii.
+#### 3. Operator = wykonuje się tylko gdy obiekt już istnieje (a nie przy samej inicjalizacji)
+#### 4. Operator = musi sprawdzać czy obiekt do skopiowania nie jset obiektem do nadpisania. (inaczej usuną się dane przed ich skopiowaniem)
