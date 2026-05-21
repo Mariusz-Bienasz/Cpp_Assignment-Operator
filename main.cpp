@@ -40,6 +40,10 @@ public:
         return *this;
     }
 
+    void setName(string newName) {
+        name = newName;
+    }
+
     ~Abcd() {
         delete [] tab;
         cout<<"[Destruktor]"<<endl;
@@ -65,6 +69,13 @@ int main() {
     Abcd b = a;
     cout << b << endl;
     cout << "-------------------------------------------" << endl;
+
+    cout << "a.setName(Drugi): "<< endl;
+    a.setName("Drugi");
+    cout << b << endl;
+    cout << "-------------------------------------------" << endl;
+
+
 
     cout << "Abcd c(3,'Trzeci'): " << endl;
     Abcd c(3, "Trzeci");
